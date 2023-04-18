@@ -598,9 +598,9 @@ const BlogPost = {
 将被解析为：
 
 ```vue-html
-<my-component>
-  <span>hello</span>
-</my-component> <!-- 但浏览器会在这里关闭标签 -->
+<my-component></my-component> <!-- 事实上 浏览器还是在这里关闭标签 -->
+<span>hello</span>
+
 ```
 
 ### 元素位置限制 {#element-placement-restrictions}
